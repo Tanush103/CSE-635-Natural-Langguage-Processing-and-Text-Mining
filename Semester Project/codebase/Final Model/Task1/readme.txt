@@ -1,0 +1,3 @@
+The task1 checkpoint file implements various NLP state of the art models like BERT, Bertweet, RoBERTa with multiple configurations.
+The code in the file is self explanatory and comments were added at relevant cells.
+General structure of code is: data reading -> loading -> data pre-processing (depends on us) -> NLP model transformer -> data encoding -> creating data loader -> NLP model class -> pre trained model import -> freezing the layer -> model training -> evaluation.
